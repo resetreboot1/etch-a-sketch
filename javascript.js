@@ -1,8 +1,7 @@
-container = document.querySelector(".container");
-
-
+let container = document.querySelector(".container");
+let box;
 for (i = 0; i < 256; i++) {
-  let box = document.createElement("div")
-  box.textContent = "u";
+  box = document.createElement("div")
+  box.classList.add("box")
   container.appendChild(box)
 }

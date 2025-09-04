@@ -1,0 +1,21 @@
+.box {
+   margin: 0%;
+   flex: auto;
+   width: 6.25%;
+   height: 6.25%;
+}
+
+.container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   flex: auto;
+}
+
+html, body, .container {min-height: 100%;}
+
+body, .container {height: 100vh;}
+
+body {
+   margin: 0%;
+}
