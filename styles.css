@@ -7,17 +7,23 @@
    height: 6.25%;
 }
 
+.button-container {
+   flex: 2 1 auto; 
+}
+
 .box-container {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   flex: auto;
+   flex: 9 1 auto; 
 }
 
 html, body, .container {min-height: 100%;}
 
-body, .box-container {height: 100vh;}
+body {height: 100vh;}
 
 body {
    margin: 0%;
+   display: flex;
+   flex-direction: column;
 }
