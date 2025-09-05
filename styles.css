@@ -7,7 +7,7 @@
    height: 6.25%;
 }
 
-.container {
+.box-container {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -16,7 +16,7 @@
 
 html, body, .container {min-height: 100%;}
 
-body, .container {height: 100vh;}
+body, .box-container {height: 100vh;}
 
 body {
    margin: 0%;
