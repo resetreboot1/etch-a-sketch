@@ -1,6 +1,8 @@
 .box {
    margin: 0%;
    flex: auto;
+   border: 0.2vh black solid;
+   box-sizing: border-box;
    width: 6.25%;
    height: 6.25%;
 }
