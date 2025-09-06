@@ -6,4 +6,7 @@ for (i = 0; i < 256; i++) {
   boxContainer.appendChild(box)
 }
 
-boxContainer.addEventListener("mouseover", (e) => e.target.style.backgroundColor = "black" )
+boxContainer.addEventListener("mouseover", (e) => {
+  if (e.target.classList.contains("box"))
+  e.target.style.backgroundColor = "black" 
+})
